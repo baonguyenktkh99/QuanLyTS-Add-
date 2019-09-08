@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Nhan_Vien_Add">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM NHÂN VIÊN"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/txtTenNV"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Tên nhân viên"
+        />
+
+    <EditText
+        android:id="@+id/txtNgaySinh"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nhập năm sinh"
+        />
+
+    <EditText
+        android:id="@+id/txtDiaChi"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Địa chỉ"
+        />
+
+    <EditText
+        android:id="@+id/txtSDT"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nhập số điện thoại"
+        />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nhập Email"
+        />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nhập Username"
+        />
+
+    <EditText
+        android:id="@+id/txtMatKhau"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nhập Password"
+        />
+
+    <EditText
+        android:id="@+id/spPhongBan"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nhập Phòng ban"
+        />
+
+    <EditText
+        android:id="@+id/txtQuyen"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="Nhập Quyền hạn"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+        <Button
+            android:id="@+id/btnThemNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm nhân viên"
+            android:layout_marginRight="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnHuyNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
